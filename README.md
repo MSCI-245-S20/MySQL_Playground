@@ -1,12 +1,19 @@
 **Create and run your own SQL files**
 
-This Unit is not a teaching Unit. It's main purpose is to allow students to add and run their own `mysql` code.
+This Unit is not a teaching Unit. It's main purpose is to allow students to add and run their own SQL code using MySQL.
 
-- The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL_Playground](https://github.com/codio-content/MySQL_Playground).
+# University Schema
 
-- For more information on other units in the MySQL course go to [Course-:-MySQL](https://github.com/codio-content/Information/wiki/Course-:-MySQL)
+We have place the university schema and sample data from the Database Systems Concepts textbook 
+into a "university" database inside MySQL.  You can find more details about the database in Appendix A.
 
-- More information on other Codio Courses, how you can collaborate and other useful information can be found in our [Information Wiki](https://github.com/codio-content/Information/wiki).
+You can do whatever you like the the MySQL databases in this unit.  
+
+If you need to reset the database to its original state, from within MySQL, simply execute:
+```
+source /home/codio/workspace/DSC-university-db/reset-create-university.sql
+```
+and this will delete and create all the sample data in the database.
 
 ## Using the `mysql` client
 Open up a terminal window from the **Tools->Terminal** menu.
