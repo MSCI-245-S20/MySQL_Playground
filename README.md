@@ -4,7 +4,7 @@ This Unit is not a teaching Unit. It's main purpose is to allow students to add 
 
 # University Schema
 
-We have place the university schema and sample data from the Database Systems Concepts textbook 
+We have placed the university schema and sample data from the Database Systems Concepts textbook 
 into a "university" database inside MySQL.  You can find more details about the database in Appendix A.
 
 You can do whatever you like the the MySQL databases in this unit.  
